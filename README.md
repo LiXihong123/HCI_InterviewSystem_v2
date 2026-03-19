@@ -86,12 +86,12 @@ HCI_InterviewSystem_v2/
 ## ❓ 常见问题
 
 **Q: 运行 `npm install` 时出现错误怎么办？**  
-A: 请确保 Node.js 版本符合要求，并尝试清除缓存后重新安装：
+A: 请确保 Node.js 版本符合要求，并尝试清除缓存后重新安装，使用如下的命令：
 bash
 npm cache clean --force
 npm install
 
 **Q: 端口已被占用怎么办？**  
-A: 可以指定其他端口：
+A: 可以指定其他端口，然后执行以下命令重试：
 bash
 npm run dev 
